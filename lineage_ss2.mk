@@ -57,6 +57,7 @@ PRODUCT_PACKAGES += \
 
 
 # TWRP
+WITH_TWRP=true
 ifeq ($(WITH_TWRP),true)
     $(call inherit-product, device/sharp/ss2/twrp/twrp.mk)
 else
